@@ -14,8 +14,8 @@ public class Main {
 
     public static String weather (int age , int temperature){
 
-        String permission = "Ìîæíî èäòè ãóëÿòü";
-        String refuse = ("Îñòàâàéòåñü äîìà");
+        String permission = "ĞœĞ¾Ğ¶Ğ½Ğ¾ Ğ¸Ğ´Ñ‚Ğ¸ Ğ³ÑƒĞ»ÑÑ‚ÑŒ";
+        String refuse = ("ĞÑÑ‚Ğ°Ğ²Ğ°Ğ¹Ñ‚ĞµÑÑŒ Ğ´Ğ¾Ğ¼Ğ°");
 
         if (age >= 20 && age <= 45 && temperature >= -20 && temperature <= 35){
             return permission;
